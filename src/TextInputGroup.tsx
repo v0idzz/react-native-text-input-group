@@ -12,10 +12,10 @@ const TextInputGroup = ({
   onFocusedIndexChange,
   onLastFieldSubmit,
 }: Props) => {
-  const refs: React.MutableRefObject<TextInput | null>[] = [];
+  const refs: React.RefObject<TextInput>[] = [];
   for (let i = 0; i < children.length; i++) {
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    refs.push(useRef<TextInput | null>(null));
+    refs.push(useRef<TextInput>(null));
   }
 
   const handleSubmitEditing = (inputIndex: number) => {
