@@ -1,5 +1,8 @@
 version: 2.1
 
+orbs:
+  codecov: codecov/codecov@1.2.5
+
 executors:
   default:
     docker:
@@ -70,6 +73,7 @@ jobs:
       - store_artifacts:
           path: coverage
           destination: coverage
+      - codecov/upload
 
   build-package:
     executor: default
