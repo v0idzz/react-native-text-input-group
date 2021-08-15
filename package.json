@@ -1,6 +1,6 @@
 {
   "name": "react-native-text-input-group",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Easily group and navigate between TextInputs using keyboard return button",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
