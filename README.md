@@ -2,6 +2,8 @@
 
 Easily group and navigate between TextInputs using keyboard return button
 
+![preview gif](https://user-images.githubusercontent.com/12448522/129474634-5ad39fad-2dd9-4a68-92f0-4899d8cc9758.gif)
+
 ## Installation
 
 ```sh
