@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/v0idzz/react-native-text-input-group.svg?style=svg)](https://circleci.com/gh/v0idzz/react-native-text-input-group)
 # react-native-text-input-group
 
 Easily group and navigate between TextInputs using keyboard return button
