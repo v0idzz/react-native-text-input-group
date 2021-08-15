@@ -14,8 +14,11 @@ npm install react-native-text-input-group
 import TextInputGroup from "react-native-text-input-group";
 
 // ...
-
-const result = await TextInputGroup.multiply(3, 7);
+<TextInputGroup>
+  <TextInput placeholder="First name" />
+  <TextInput placeholder="Last name" />
+  <TextInput placeholder="City" />
+</TextInputGroup>
 ```
 
 ## Contributing
